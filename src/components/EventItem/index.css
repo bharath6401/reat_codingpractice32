@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+img {
+  width: 100%;
+}
+li {
+  margin: 10px;
+}
+ul {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: #64748b;
+  color: white;
+}
+.activeReg {
+  padding: 20px;
+  margin-left: 20px;
+  /* background-color: yellow; */
+}
+
+.registeredStatusContainer {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 100vh;
+}
+
+.regstrationStatusImage {
+  display: flex;
+  width: 80%;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  height: 36px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #0967d2;
+  border: 0px;
+  color: white;
+}
+.Selected {
+  border: solid 1px yellow;
+  border-radius: 4px;
+}
